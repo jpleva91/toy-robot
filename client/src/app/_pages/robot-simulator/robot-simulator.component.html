@@ -1,0 +1,18 @@
+<div class="header">
+  Click to place the robot, use the buttons or arrows to move
+</div>
+
+<app-tabletop
+  [grid]="grid()"
+  (placeRobot)="placeRobot($event.x, $event.y)"
+></app-tabletop>
+
+<div class="controls">
+  <button [appRobotSimulatorDisabledButton]="!isRobotPlaced()" (click)="rotateRobotLeft()">Left</button>
+  <button [appRobotSimulatorDisabledButton]="!isRobotPlaced()" (click)="moveRobot()">Move</button>
+  <button [appRobotSimulatorDisabledButton]="!isRobotPlaced()" (click)="rotateRobotRight()">Right</button>
+</div>
+
+<div class="report-button">
+  <button [appRobotSimulatorDisabledButton]="!isRobotPlaced()" (click)="report()">Report</button>
+</div>

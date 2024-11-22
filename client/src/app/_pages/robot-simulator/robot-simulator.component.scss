@@ -1,0 +1,46 @@
+.header {
+  background: var(--header-background-color);
+  color: white;
+  width: calc((5rem * 5) - 20px);
+  display: flex;
+  justify-content: center;
+  margin: 2rem auto;
+  padding: 15px;
+  border-radius: var(--border-radius);
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+@mixin button {
+  padding: 10px;
+  border-radius: var(--border-radius);
+  border: none;
+  background-color: var(--primary-button-color);
+  color: var(--color-on-primary-button);
+  font-size: 14px;
+  cursor: pointer;
+  min-width: 5rem;
+}
+
+button {
+  @include button;
+}
+
+.report-button {
+  button {
+    @include button;
+    background-color: var(--secondary-button-color);
+    color: var(--color-on-secondary-button);
+    border: 1px solid var(--primary-button-color);
+    min-width: 10rem;
+  }
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 10px;
+}

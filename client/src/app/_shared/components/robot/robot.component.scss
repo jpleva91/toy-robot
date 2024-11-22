@@ -1,0 +1,24 @@
+.grid-cell {
+  border: 1px solid var(--border-color);
+  width: 5rem;
+  height: 5rem;
+  background-image: url('/assets/robot-sheet.png');
+  background-position: -35px -175px;
+  cursor: pointer;
+}
+
+.robot--north {
+  background-position: -35px -385px;
+}
+
+.robot--south {
+  background-position: -35px -73px;
+}
+
+.robot--east {
+  background-position: -35px -281px;
+}
+
+.robot--west {
+  background-position: -35px -488px;
+}

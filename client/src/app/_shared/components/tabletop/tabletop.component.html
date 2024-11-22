@@ -1,0 +1,11 @@
+<div class="grid-container">
+  <div class="grid">
+    @for (row of grid(); track row) {
+      <div class="grid-row">
+        @for (cell of row; track cell) {
+          <app-robot [cell]="cell" (placeRobot)="placeRobot.emit($event)"></app-robot>
+        }
+      </div>
+    }
+  </div>
+</div>
