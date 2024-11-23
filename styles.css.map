@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/styles.scss"],
+  "sourcesContent": [":root {\r\n  --primary-color: #16b3c7;\r\n  --on-primary-color: black;\r\n  --secondary-color: #293538;\r\n  --on-secondary-color: white;\r\n  --background-color: #1e2527;\r\n  --border-color: #69696a;\r\n  --border: 1px solid var(--border-color);\r\n  --border-radius: 8px;\r\n}\r\n\r\nbody {\r\n  background-color: var(--background-color);\r\n  font-family: 'Roboto', sans-serif;\r\n  font-size: 0.9rem;\r\n}\r\n"],
+  "mappings": ";AAAA;AACE,mBAAA;AACA,sBAAA;AACA,qBAAA;AACA,wBAAA;AACA,sBAAA;AACA,kBAAA;AACA,YAAA,IAAA,MAAA,IAAA;AACA,mBAAA;;AAGF;AACE,oBAAA,IAAA;AACA,eAAA,QAAA,EAAA;AACA,aAAA;;",
+  "names": []
+}

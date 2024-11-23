@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/_shared/components/tabletop/tabletop.component.scss"],
+  "sourcesContent": [".grid-container {\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: center;\r\n}\r\n\r\n.grid {\r\n  display: grid;\r\n}\r\n\r\n.grid-row {\r\n  display: grid;\r\n  grid-auto-columns: 1fr;\r\n  grid-auto-flow: column;\r\n  grid-auto-rows: 1fr;\r\n}\r\n"],
+  "mappings": ";AAAA,CAAA;AACE,WAAA;AACA,kBAAA;AACA,eAAA;;AAGF,CAAA;AACE,WAAA;;AAGF,CAAA;AACE,WAAA;AACA,qBAAA;AACA,kBAAA;AACA,kBAAA;;",
+  "names": []
+}
