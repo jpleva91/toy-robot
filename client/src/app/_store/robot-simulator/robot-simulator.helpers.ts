@@ -7,6 +7,9 @@ export type RobotSimulatorState = {
   gridSize: number | undefined;
 };
 
+/**
+ * Returns true if the robot is on the grid and within the bounds of the grid.
+ */
 export function isRobotOnGrid({
   x,
   y,
@@ -23,6 +26,9 @@ export function isRobotOnGrid({
   );
 }
 
+/**
+ * Returns true if the robot is placed on the grid.
+ */
 export function isRobotPlaced({
   x,
   y,
@@ -31,6 +37,9 @@ export function isRobotPlaced({
   return x !== undefined && y !== undefined && direction !== undefined;
 }
 
+/**
+ * Generates the grid for the tabletop.
+ */
 export function generateGrid(
   x: number | undefined,
   y: number | undefined,
@@ -50,6 +59,9 @@ export function generateGrid(
   );
 }
 
+/**
+ * Rotates the direction of the robot.
+ */
 export function rotateDirection(
   direction: DirectionType,
   isLeft: boolean

@@ -1,4 +1,4 @@
-<div class="header">
+<div class="header" data-cy="header">
   Click to place the robot, use the buttons or arrows to move
 </div>
 
@@ -8,11 +8,11 @@
 ></app-tabletop>
 
 <div class="controls">
-  <button [appRobotSimulatorDisabledButton]="!isRobotPlaced()" (click)="rotateRobotLeft()">Left</button>
-  <button [appRobotSimulatorDisabledButton]="!isRobotPlaced()" (click)="moveRobot()">Move</button>
-  <button [appRobotSimulatorDisabledButton]="!isRobotPlaced()" (click)="rotateRobotRight()">Right</button>
+  <button [appRobotSimulatorDisabledButton]="!isRobotPlaced()" (click)="rotateRobotLeft()" data-cy="left-button">Left</button>
+  <button [appRobotSimulatorDisabledButton]="!isRobotPlaced()" (click)="moveRobot()" data-cy="move-button">Move</button>
+  <button [appRobotSimulatorDisabledButton]="!isRobotPlaced()" (click)="rotateRobotRight()" data-cy="right-button">Right</button>
 </div>
 
 <div class="report-button">
-  <button [appRobotSimulatorDisabledButton]="!isRobotPlaced()" (click)="report()">Report</button>
+  <button [appRobotSimulatorDisabledButton]="!isRobotPlaced()" (click)="report()" data-cy="report-button">Report</button>
 </div>

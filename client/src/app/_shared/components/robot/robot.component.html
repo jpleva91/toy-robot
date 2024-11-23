@@ -3,4 +3,5 @@
   ngClass="robot--{{ cell().direction?.toLowerCase() }}"
   (click)="placeRobot.emit({ x: cell().x!, y: cell().y! })"
   title="Place Robot"
+  data-cy="robot-cell"
 ></div>

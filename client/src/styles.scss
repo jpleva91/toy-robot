@@ -1,12 +1,11 @@
 :root {
+  --primary-color: #16b3c7;
+  --on-primary-color: black;
+  --secondary-color: #293538;
+  --on-secondary-color: white;
   --background-color: #1e2527;
-  --header-background-color: #2e3537;
   --border-color: #69696a;
   --border: 1px solid var(--border-color);
-  --primary-button-color: #16b3c7;
-  --color-on-primary-button: black;
-  --secondary-button-color: #293538;
-  --color-on-secondary-button: white;
   --border-radius: 8px;
 }
 

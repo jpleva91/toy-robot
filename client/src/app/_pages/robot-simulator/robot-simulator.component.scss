@@ -1,6 +1,8 @@
+@use '../../_shared/mixins' as *;
+
 .header {
-  background: var(--header-background-color);
-  color: white;
+  background: var(--secondary-color);
+  color: var(--on-secondary-color);
   width: calc((5rem * 5) - 20px);
   display: flex;
   justify-content: center;
@@ -10,21 +12,7 @@
 }
 
 .controls {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
-  gap: 10px;
-}
-
-@mixin button {
-  padding: 10px;
-  border-radius: var(--border-radius);
-  border: none;
-  background-color: var(--primary-button-color);
-  color: var(--color-on-primary-button);
-  font-size: 14px;
-  cursor: pointer;
-  min-width: 5rem;
+  @include button-container;
 }
 
 button {
@@ -32,15 +20,11 @@ button {
 }
 
 .report-button {
+  @include button-container;
   button {
-    @include button;
-    background-color: var(--secondary-button-color);
-    color: var(--color-on-secondary-button);
-    border: 1px solid var(--primary-button-color);
+    background-color: var(--secondary-color);
+    color: var(--on-secondary-color);
+    border: 1px solid var(--primary-color);
     min-width: 10rem;
   }
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
-  gap: 10px;
 }

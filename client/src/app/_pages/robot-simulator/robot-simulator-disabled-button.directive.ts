@@ -8,6 +8,10 @@ import {
   SimpleChanges,
 } from '@angular/core';
 
+/**
+ * Directive to disable a button when the robot is not placed on the grid.
+ * It also sets the title attribute to show a tooltip when the button is disabled.
+ */
 @Directive({
   selector: '[appRobotSimulatorDisabledButton]',
   standalone: true,
