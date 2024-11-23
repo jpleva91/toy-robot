@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/_shared/components/robot/robot.component.scss"],
-  "sourcesContent": [".grid-cell {\r\n  border: 1px solid var(--border-color);\r\n  width: 5rem;\r\n  height: 5rem;\r\n  background-image: url('/assets/robot-sheet.png');\r\n  background-position: -35px -175px;\r\n  cursor: pointer;\r\n}\r\n\r\n.robot--north {\r\n  background-position: -35px -385px;\r\n}\r\n\r\n.robot--south {\r\n  background-position: -35px -73px;\r\n}\r\n\r\n.robot--east {\r\n  background-position: -35px -281px;\r\n}\r\n\r\n.robot--west {\r\n  background-position: -35px -488px;\r\n}\r\n"],
-  "mappings": ";AAAA,CAAA;AACE,UAAA,IAAA,MAAA,IAAA;AACA,SAAA;AACA,UAAA;AACA,oBAAA;AACA,uBAAA,MAAA;AACA,UAAA;;AAGF,CAAA;AACE,uBAAA,MAAA;;AAGF,CAAA;AACE,uBAAA,MAAA;;AAGF,CAAA;AACE,uBAAA,MAAA;;AAGF,CAAA;AACE,uBAAA,MAAA;;",
-  "names": []
-}
