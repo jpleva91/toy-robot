@@ -22,7 +22,7 @@ This project simulates a toy robot on a grid. The robot can be placed on the gri
 
    ```bash
    git clone https://github.com/jpleva91/toy-robot-simulator.git
-   cd toy-robot-simulator
+   cd client
    ```
 
 2. Install dependencies:
