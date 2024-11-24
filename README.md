@@ -2,6 +2,9 @@
 
 This project simulates a toy robot on a grid. The robot can be placed on the grid, rotated in four directions, and moved forward based on its current direction. The grid allows for intuitive robot control using keyboard input (Arrow keys) to move the robot, rotate it, and reverse its direction.
 
+## Deployed App
+The application can be accessed via the AWS CloudFront URL: [https://d2uwh5jf6iob12.cloudfront.net/](https://d2uwh5jf6iob12.cloudfront.net/)
+
 ## Features
 
 - **Place the Robot**: Place the robot at any location on the grid.
